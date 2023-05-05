@@ -14,15 +14,17 @@ const Features = () => {
     {/* Features Boxes */}
     <div className='flex gap-4 flex-wrap items-center justify-center'>
 
-<div className="box max-w-sm">
+<div className="box max-w-sm px-12 py-6">
   <img src={SendMoneyIcon} alt="sendmoneyIcon" />
-  <p>Send Money</p>
-  <p>Send money instantly to anyone with a phone number, email address or bank account.</p>
+  <p className='text-orange-500'>Send Money</p>
+  <p className='text-xs'>Send money instantly to anyone with a phone number, email address or bank account.</p>
  <p className='text-orange-500'>Read More</p>
 </div>
-<div className='box max-w-xs'>
+<div className='box max-w-xs px-12 py-6'>
 <img src={RemittanceIcon} alt="" className='' />
-
+<p className='text-orange-500'>Get Remittance</p>
+<p className='text-xs'>Receive instant and secure money transfers from abroad to any Nigerian mobile phone number or bank account , using paga.</p>
+<p className='text-orange-500'>Read More</p>
 </div>
 <div className='box'>
 <img src={ReceiveMoneyIcon} alt="" />
