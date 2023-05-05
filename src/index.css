@@ -3,8 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.navbar,body{
+.navbar,body, .box{
     background: #FFFFE3; 
+}
+.box{
+    width: 333px;
+   height: 304px;
 }
 .header_text{
     color: #1E1F38;
