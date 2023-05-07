@@ -31,18 +31,18 @@ let [open, setOpen] = useState(false);
     <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden text-gray-900'>
     <ion-icon name={open ? 'close':'menu'}></ion-icon>
     </div>
-    <ul className={`  md:flex md:items-center md:pb-0 pb-2  absolute md:static  z-[2]  w-full  md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
+    <ul className={`  md:flex md:items-center md:pb-0 pb-2 bg-white  absolute md:static  z-[2]  w-full  md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
         {
           Links.map((link)=>(
             
-            <ul key={link.name} to={link.link} className='md:ml-6 text-sm md:my-0 my-7  text-orange-500 ' smooth >
+            <ul key={link.name} to={link.link} className='md:ml-6 text-sm md:my-0 my-7  text-orange-500  ' smooth >
               <li className='text-orange-500 hover:text-gray-400 duration-500 '>{link.name}</li>
            
             </ul>
           ))
           
         }
-         <img src={NigeriaFlag} alt="Nigerian flag" className=' md:ml-6 text-sm md:my-0 my-7'/>
+         <img src={NigeriaFlag} alt="Nigerian flag" className=' md:ml-14 text-sm md:my-0 my-7'/>
         <li className='text-orange-500  md:ml-6 text-sm md:my-0 my-7'>Login</li>
         <button className='bg-orange-500 w-32 pt-1 pb-1 ml-12 rounded'>Get Started</button>
        
