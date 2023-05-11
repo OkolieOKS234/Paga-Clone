@@ -26,7 +26,7 @@ const Associates = () => {
       <p className="text-red-500">Select a biller to get started</p>
 
       {/* brands */}
-      <div className="flex flex-wrap gap-1">
+      <div className="associates flex  gap-1">
       <img src={AEDC} alt="AEDC logo" />
       <img src={DSTV} alt="DSTV logo" />
       <img src={IE} alt="" />

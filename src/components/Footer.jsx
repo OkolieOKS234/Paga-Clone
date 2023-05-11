@@ -9,7 +9,7 @@ import Youtube from "../assets/icons/youtube.png";
 const Footer = () => {
   return (
     <footer className="px-12 pt-12">
-      <div className="flex gap-24">
+      <div className=" footer_section flex gap-24">
       <div className="max-w-sm">
         <img src={LogoImage} alt="" />
         <p>
@@ -65,9 +65,15 @@ const Footer = () => {
         </ul>
       </div>
       </div>
-      <div className="flex justify-between pt-12 pb-2">
-      <p className="rights_reserved"> © 2022 Paga. All rights reserved</p>
-      <p>Terms of Service | Security</p> 
+      <div className=" footer_rights flex justify-between pt-12 pb-2">
+        <div>
+        <p className="rights_reserved"> © 2022 Paga. All rights reserved</p>
+        </div>
+        <div>
+        <p>Terms of Service | Security</p> 
+        </div>
+     
+      
       </div>
       
     </footer>
