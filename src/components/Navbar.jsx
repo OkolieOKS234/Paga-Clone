@@ -18,7 +18,7 @@ let Links =[
 let [open, setOpen] = useState(false);
 
   return (
-    <div className=' navbar w-full fixed top-0 left-0 '>
+    <div className=' navbar w-full fixed top-0 left-0 px-12 '>
     <div className='md:flex items-center py-4 md:px-2 px-7 gap-7 ml-12  '>
     <div className='font-bold   cursor-pointer flex items-center font-[Poppins] 
     text-gray-800'>
@@ -31,7 +31,7 @@ let [open, setOpen] = useState(false);
     <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden text-gray-900'>
     <ion-icon name={open ? 'close':'menu'}></ion-icon>
     </div>
-    <ul className={`  md:flex md:items-center md:pb-0 pb-2 bg-white  absolute md:static  z-[2]  w-full  md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
+    <ul className={`  md:flex md:items-center md:pb-0 pb-2   absolute md:static  z-[2]  w-full  md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
         {
           Links.map((link)=>(
             
@@ -44,7 +44,7 @@ let [open, setOpen] = useState(false);
         }
          <img src={NigeriaFlag} alt="Nigerian flag" className=' md:ml-14 text-sm md:my-0 my-7'/>
         <li className='text-orange-500  md:ml-6 text-sm md:my-0 my-7'>Login</li>
-        <button className='bg-orange-500 w-32 pt-1 pb-1 ml-12 rounded'>Get Started</button>
+        <button className='bg-orange-500 w-32 pt-1 pb-1 ml-12 rounded text-white'>Get Started</button>
        
       </ul>
       <div>

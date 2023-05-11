@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.navbar,body, .box{
+.navbar,body, .box, footer{
     background: #FFFFE3; 
 }
 .box{
@@ -18,4 +20,55 @@
     max-width: 365px;
     word-spacing: 2px;
     text-align: left;
+}
+@media only screen and (max-width: 996px){
+    body{
+        min-width: 100%;
+    }
+    .agent_pic, .agent, .second_features{
+        flex-wrap: wrap;
+    }
+}
+
+
+/* IPHONE XR and less width */
+@media only screen and (max-width: 414px){
+    body{
+        overflow-x: hidden;
+        min-width: 100%;
+    }
+    .hero{
+        flex-wrap: wrap;
+        margin-left: 5px;
+    }
+    .features h2{
+        margin-left: 10px;
+        font-size:xx-large;
+    }
+    .box{
+width: 100%;
+margin-right: 0;
+    }
+    .agent{
+        width: 90%;
+        margin-left: 20px;
+        padding: 10px;
+    }
+    .associates_header{
+        font-size: 30px;
+        min-width: 100%;
+    }
+}
+
+
+/* HERO SECTION */
+.hero_paragraph{
+    font-family: 'Poppins', sans-serif;
+
+}
+h3, footer p{
+    font-family: 'Oxygen', sans-serif;
+}
+.rights_reserved, footer p{
+    font-weight: 200;
 }

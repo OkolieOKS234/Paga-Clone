@@ -9,12 +9,12 @@ import TopupIcon from "../assets/icons/Airtime_Data.png"
 
 const Features = () => {
   return (
-    <section className='bg-white '>
-      <h2 className='ml-24 text-4xl my-6 w-96'>Join over <span className='text-orange-500'>19million</span> people who use paga to</h2>
+    <section className='features bg-white '>
+      <h2 className='ml-24 text-4xl py-6 px-12 max-w-lg'>Join over <span className='text-orange-500'>19million</span> people who use paga to</h2>
     {/* Features Boxes */}
     <div className='flex gap-4 flex-wrap items-center justify-center'>
 
-<div className="box max-w-sm px-12 py-6">
+<div className="box max-w-sm  px-12 py-6">
   <img src={SendMoneyIcon} alt="sendmoneyIcon" />
   <p className='text-orange-500'>Send Money</p>
   <p className='text-xs'>Send money instantly to anyone with a phone number, email address or bank account.</p>

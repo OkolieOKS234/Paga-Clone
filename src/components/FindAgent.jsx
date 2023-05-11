@@ -5,8 +5,8 @@ import FindAgent3 from '../assets/FindAgent_pic3.png'
 
 const FindAgent = () => {
   return (
-    <section>
-      <div className="flex bg-orange-600 w-4/5 rounded-lg ml-12 gap-16">
+    <section className="bg-white pt-6">
+      <div className=" agent flex bg-orange-600 w-10/12 rounded-lg ml-12 gap-16 md:gap-2">
         <div className="max-w-sm ml-12 m-auto ">
           <h3 className="text-3xl text-white">Over 27,000 Agents Nationwide!</h3>
           <p className="text-xs text-white py-2 max-w-xs">
@@ -19,17 +19,16 @@ const FindAgent = () => {
           
         </div>
         <div >
-          <div className="flex gap-2">
+          <div className=" agent_pic flex gap-0 ">
           <img src={FindAgent1} alt="find_agent" />
           <img src={FindAgent2} alt="find_agent" className=" self-end" />
           </div>
-          <div className="ml-24">
+          <div className="pl-24">
           <img src={FindAgent3} alt="find_agent" />
           </div>
 
         </div>
       </div>
-      fsjs
     </section>
   );
 };

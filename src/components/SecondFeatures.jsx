@@ -4,14 +4,14 @@ import People from "../assets/icons/2-min 1.png"
 import trustedIcon from "../assets/icons/3-min 1.png"
 const SecondFeatures = () => {
   return (
-    <section className=" text-center bg-white">
+    <section className=" text-center bg-white py-12">
       <div>
-        <button className="bg-orange-500 rounded-lg">Why Paga</button>
+        <button className="bg-yellow-500 py-1 px-4 rounded-full">Why Paga</button>
         <h3>
           Freedom to do it <span className="text-red-600">your way</span>
         </h3>
       </div>
-      <div className="flex gap-12 py-6 items-center justify-center">
+      <div className="second_features flex gap-12 py-6 items-center justify-center">
 {/* First div */}
         <div className="w-48 text-center">
             <div className="text-center self-center w-48 ml-9">

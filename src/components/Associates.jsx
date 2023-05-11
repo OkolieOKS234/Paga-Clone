@@ -19,8 +19,8 @@ import PLAYTV from "../assets/brands/PLAYTV.png"
 
 const Associates = () => {
   return (
-    <section className="px-12 py-6">
-      <h3 className="text-3xl w-2/5">
+    <section className="px-24 py-6">
+      <h3 className="associates_header text-3xl w-2/5">
         Pay your bills instantly without opening a Paga account!
       </h3>
       <p className="text-red-500">Select a biller to get started</p>
